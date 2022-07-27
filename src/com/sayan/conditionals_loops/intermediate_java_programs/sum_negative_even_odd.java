@@ -7,7 +7,7 @@ public class sum_negative_even_odd {
         Scanner inp=new Scanner(System.in);
         int num,sum_neg=0,sum_e=0,sum_o=0;
         boolean in=true;
-        System.out.println("Enter the no. one by one and end the process with 0: ");
+        System.out.println("Enter the number one by one and end the process with 0: ");
         while (in){
             num= inp.nextInt();
             if (num==0)
@@ -24,8 +24,8 @@ public class sum_negative_even_odd {
                 }
             }
         }
-        System.out.println("Sum of -Ve no.: -"+sum_neg);
-        System.out.println("Sum of +Ve even no.: "+sum_e);
-        System.out.println("Sum of +Ve odd no.: "+sum_o);
+        System.out.println("Sum of -Ve numbers: -"+sum_neg);
+        System.out.println("Sum of +Ve even numbers: "+sum_e);
+        System.out.println("Sum of +Ve odd numbers: "+sum_o);
     }
 }
