@@ -9,9 +9,9 @@ public class Num_smaller_current {
     }
     public static int[] smallerNumbersThanCurrent(int[] nums) {
         int[] ans=new int[nums.length];
-        for(int i=0; i<nums.length; i++){
+        for(int i=0; i < nums.length; i++){
             int sum=0;
-            for(int j=0; j<nums.length; j++){
+            for(int j=0; j < nums.length; j++){
                 if((j!=i)&&(nums[j]<nums[i])){
 
                     sum++;
