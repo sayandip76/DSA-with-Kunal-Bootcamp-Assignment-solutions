@@ -1,7 +1,5 @@
 package com.sayan.Arrays;
 
-import java.util.Arrays;
-
 import static java.util.Arrays.deepToString;
 
 public class Flip_Invert_img {
